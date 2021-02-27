@@ -8,44 +8,46 @@
       <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="splash container-flex">
-      <div class="nav row">
-        <div class="logo">
-          <span class="logo">Golden</span>
+    <div class="splash container-fluid">
+      <div class="container">
+          <div class="row">
+            <div class="logo col-12 col-md-3">
+              <span>Golden</span>
+            </div>
+            <div class="menu col-12 col-md-9">
+              <ul>
+                <li>
+                  <a href="#">HOME</a>
+                </li>
+                <li>
+                  <a href="#">SERVICES</a>
+                </li>
+                <li>
+                  <a href="#">PORTFOLIO</a>
+                </li>
+                <li>
+                  <a href="#">ABOUT</a>
+                </li>
+                <li>
+                  <a href="#">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      <div class="splash-inner">
+        <div class="row">
+          <div class="title">Welcome to our studio!</div>
         </div>
-        <div class="menu">
-          <ul>
-            <li>
-              <a href="#">HOME</a>
-            </li>
-            <li>
-              <a href="#">SERVICES</a>
-            </li>
-            <li>
-              <a href="#">PORTFOLIO</a>
-            </li>
-            <li>
-              <a href="#">ABOUT</a>
-            </li>
-            <li>
-              <a href="#">CONTACT</a>
-            </li>
-          </ul>
+        <div class="row">
+          <div class="subtitle">It's nice to meet you</div>
         </div>
-      </div>
-      <div class="title col">
-        <div class="title">
-          <span title="title">Welcome to our studio</span>
-        </div>
-        <div class="subtitle">
-          <span title="subtitle">It's nice to meet you</span>
-        </div>
-        <div class="more">
-          <span class="button">Tell me more</span>
+        <div class="row">
+          <div class="more-button">Tell me more</div>
         </div>
       </div>
     </div>
-    <div class="services container">
+  </div>
+  <div class="services container">
       <div class="row">
         <div class="row-title">
           <h1>SERVICES</h1>
@@ -53,94 +55,104 @@
         </div>
       </div>
       <div class="row">
-        <div class="box">
-          <span class="icon">
-            <i class="fas fa-shopping-basket"></i>
-          </span>
-          <span class="box-title">E-Commerce</span>
-          <p>
-            Lorem ipsum dolor sit amet dolor. Nulla lobortis magna ante, tincidunt viverra. Proin dui et enim. Aenean ligula.
-          </p>
+        <div class="box col-12 col-lg-4">
+          <div class="col">
+            <div class="box-icon">
+              <div class="icon">
+                <i class="fas fa-shopping-basket"></i>
+              </div>
+            </div>
+            <div class="box-title">E-Commerce</div>
+            <p class="p-box">
+              Lorem ipsum dolor sit amet dolor. Nulla lobortis magna ante, tincidunt viverra. Proin dui et enim. Aenean ligula.
+            </p>
+          </div>
         </div>
-        <div class="box">
-          <span class="icon">
-            <i class="fas fa-laptop-code"></i>
-          </span>
-          <span class="box-title">Responsive Web</span>
-          <p>
-            Lorem ipsum dolor sit amet dolor. Nulla lobortis magna ante, tincidunt viverra. Proin dui et enim. Aenean ligula.
-          </p>
+        <div class="box col-12 col-lg-4">
+          <div class="col">
+            <div class="box-icon">
+              <span class="icon">
+                <i class="fas fa-laptop-code"></i>
+              </span>
+            </div>
+            <div class="box-title">Responsive Web</div>
+            <p class="p-box">
+              Lorem ipsum dolor sit amet dolor. Nulla lobortis magna ante, tincidunt viverra. Proin dui et enim. Aenean ligula.
+            </p>
+          </div>
         </div>
-        <div class="box">
-          <span class="icon">
-            <i class="fas fa-unlock-alt"></i>
-          </span>
-          <span class="box-title">Web Security</span>
-          <p>
-            Lorem ipsum dolor sit amet dolor. Nulla lobortis magna ante, tincidunt viverra. Proin dui et enim. Aenean ligula.
-          </p>
+        <div class="box col-12 col-lg-4">
+          <div class="col">
+            <div class="box-icon">
+              <div class="icon">
+                <i class="fas fa-unlock-alt"></i>
+              </div>
+            </div>
+            <div class="box-title">Web Security</div>
+            <p class="p-box">
+              Lorem ipsum dolor sit amet dolor. Nulla lobortis magna ante, tincidunt viverra. Proin dui et enim. Aenean ligula.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="portfolio container">
-        <div class="row">
-        <div class="row-title">
-          <h1>OUR PORTFOLIO</h1>
-          <h2>Proin lacullus purus consequat sem cure.</h2>
-        </div>
-      </div>
-        <div class="col">
+    <div class="portfolio-container container-fluid">
+      <div class="portfolio">
           <div class="row">
-            <div class="col">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/2.jpg" alt="obrazek" />
-                  </div>
-                  <div class="card-body">
-                    <span class="card-title">
-                      Vinyl Record 1
-                    </span>
-                    <span class="card-subtitle">
-                      Product Mock-Up
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/2.jpg" alt="obrazek" />
-                  </div>
-                  <div class="card-body">
-                    <span class="card-title">
-                      Vinyl Record 2
-                    </span>
-                    <span class="card-subtitle">
-                      Product Mock-Up
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/2.jpg" alt="obrazek" />
-                  </div>
-                  <div class="card-body">
-                    <span class="card-title">
-                      Vinyl Record 3
-                    </span>
-                    <span class="card-subtitle">
-                      Product Mock-Up
-                    </span>
-                  </div>
-                </div>
-            </div>
+          <div class="row-title">
+            <h1>OUR PORTFOLIO</h1>
+            <h2>Proin lacullus purus consequat sem cure.</h2>
           </div>
         </div>
-        <div class="col">
+        <div class="row">
+          <div class="col-12 col-md-4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/2.jpg" alt="obrazek" />
+                </div>
+                <div class="card-body">
+                  <span class="card-title">
+                    Vinyl Record 1
+                  </span>
+                  <span class="card-subtitle">
+                    Product Mock-Up
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/2.jpg" alt="obrazek" />
+                </div>
+                <div class="card-body">
+                  <span class="card-title">
+                    Vinyl Record 2
+                  </span>
+                  <span class="card-subtitle">
+                    Product Mock-Up
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/2.jpg" alt="obrazek" />
+                </div>
+                <div class="card-body">
+                  <span class="card-title">
+                    Vinyl Record 3
+                  </span>
+                  <span class="card-subtitle">
+                    Product Mock-Up
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="row">
-            <div class="col">
+            <div class="col-12 col-md-4">
                 <div class="card">
                   <div class="card-image">
                     <img src="images/3.jpg" alt="obrazek" />
@@ -155,7 +167,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col-12 col-md-4">
                 <div class="card">
                   <div class="card-image">
                     <img src="images/3.jpg" alt="obrazek" />
@@ -170,7 +182,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col-12 col-md-4">
                 <div class="card">
                   <div class="card-image">
                     <img src="images/3.jpg" alt="obrazek" />
@@ -190,12 +202,12 @@
       </div>
     <div class="footer container">
       <div class="row">
-        <div class="copyright">
+        <div class="copyright col-12 col-md-6">
           <p>
             &copy; Copyright 2014 FreebiesXpress.com
           </p>
         </div>
-        <div class="social_icon">
+        <div class="social_icon col-12 col-md-6">
                 <ul>
                   <li>
                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -213,6 +225,5 @@
           </div>
         </div>
       </div>
-    </div>
   </body>
 </html>
